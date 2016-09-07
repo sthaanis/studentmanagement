@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loop Concept</title>
+</head>
+<body>
+	<!-- While Loop Start -->
+	<h3>While Loop</h3>
+	<script type="text/javascript">
+		/*var count = 0;
+		document.write("While Loop Starts...." + "<br>");
+		while(count<5)
+		{
+			document.write("Current Count : " + " " + count + "<br>");
+			count++;
+		}
+		document.write("While Loop Ends...." + "<br>" + "<br>");
+
+		var count1 = 0;
+		document.write("Do While Starts..." + "<br>");
+		do
+		{
+			document.write("Current Count : " + " " + count1 + "<br>");
+			count1++;
+		}while(count1 < 6);
+		document.write("Do While Ends"+ "<br>" + "<br>");
+
+		
+		document.write("For Loop Starts..." + "<br>");
+		for(count2 = 0; count2<5; count2++)
+		{
+			document.write("Current Count : " + count2 + "<br>");
+		}
+		document.write("For Loop Ends..."+ "<br>" + "<br>");
+
+		var person = {fname:"Anish", lname:"Shrestha", age: 21};
+		document.write("Starting For In Loop" + "<br>");
+		
+		for ( var x in person)
+		{
+		document.write(x + ":" + person[x] + "<br>");
+		}
+		document.write("For In Loop Ended" + "<br>");*/
+
+		/*var personal = { fname : "Anish" , lname : "Shrestha" , age : 21 , email : "anishshrestha541@gmail.com"};
+		document.write("Starting For..In Loop.." + "<br>");
+
+		for ( var x in personal )
+		{
+			document.write( x + " : " + personal[x] + "<br>");
+		}
+*/
+		/*var x = 1;
+		document.write("Entering the loop" + "<br>");
+
+		while(x<20)
+		{
+			if(x==5)
+			{
+				break;
+			}
+			x= x+1;
+			document.write( x + "<br>");
+		}
+
+		document.write("Exiting from loop..");*/
+
+		/*var x = 1;
+		document.write("Entering to the loop" + "<br>");
+
+		while(x<10){
+			 x = x + 1;
+
+			 if( x == 5){
+			 	continue;
+			 }
+
+			 document.write( x + "<br>");
+		}
+
+		document.write("Exiting from the loop");*/
+
+		/*document.write("Entering into the loop" + "<br>");
+		outerloop:
+
+		for( var i = 0; i < 5; i++ )
+		{
+			document.write("Outerloop:" + i + "<br>");
+			innerloop:
+
+			for (var j = 0; j < 5; j++) 
+			{
+				if(j>3) break;
+				if(i==2)break innerloop;
+				if(i==4)break outerloop;
+				document.write("Innerloop:" + j + "<br>");
+
+			}
+		}
+
+		document.write("Exiting from the loop" + "<br>");*/
+
+		document.write("Entering into the loop" + "<br>");
+		outerloop:
+		for(var i=0; i<5; i++)
+		{
+			document.write("Outerloop" + " " + i + "<br>");
+			innerloop:
+
+			for(var j=0; j<5; j++)
+			{
+				if(j>3) break;
+				if(i==2) break innerloop;
+				if(i==4) break outerloop;
+				document.write("Innerloop:" + " " + j + "<br>");
+			}
+		}
+
+		document.write("Exiting Loop");
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body
+{
+	font-size:12pt;
+	font-family: Verdana , Arial , Helvetica , sans-serif;
+	color:green;
+	line-height: 20pt;
+	padding-left: 20pt;
+	padding-right: 20pt;
+	padding-top: 5pt;
+}
+
+h3
+{
+	font-size: 14pt;
+	font-family: Verdana , Arial , Helvetica , sans-serif;
+	color: brown;
+}
+
+p
+{
+	text-align: left;
+}
+
+img
+{
+	padding : 5pt;
+	float : right;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+p.subheader
+{
+	font-weight: bold;
+	color:#593d87;
+}
+
+a:link 
+{
+	color: red;
+}
+
+a:visited
+{
+	color:silver;
+
+}
+
+a:hover 
+{
+	color :yellow;
+}
+
+a:active
+{
+	color: silver;
+}
+
+footer
+{
+	font-size: 9pt;
+	font-style: italic;
+	line-height: 12pt;
+	text-align: center;
+	padding-top: 30pt;
+	color: black;
+}
+
+.warning
+{
+	color: red;
+}
+
+ul em {
+	color:red;
+}
